@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfe3fe;
+    /* background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%); */
+}
+.left-side{
+  width: 100%;
+}
+.left-side h2{
+  font-size: 4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.left-side p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.nav-link:hover{  
+  background: #b0bbfd;
+}
+
+/* plugin css 3d */
+  .card{
+    width: 250px;
+    padding:10px;
+    text-align: justify;
+    transform-style: preserve-3d;
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
+    -moz-transform: translateZ(100px);
+    -ms-transform: translateZ(100px);
+    -o-transform: translateZ(100px);
+    background-color:#ddd;
+  }
+  
+  .card-image{
+    width: 230px;
+    transform-style: preserve-3d;
+    transform:translateZ(100px);
+    -webkit-transform:translateZ(100px);
+    -moz-transform:translateZ(100px);
+    -ms-transform:translateZ(100px);
+    -o-transform:translateZ(100px);
+  }
+
+  
+
+

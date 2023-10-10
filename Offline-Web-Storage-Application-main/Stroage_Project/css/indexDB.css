@@ -1,0 +1,112 @@
+
+  /* Container */
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+  }
+  
+  /* Header */
+  #headerText {
+    text-align: center;
+  }
+  
+  #headerText h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #303030;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table */
+  #contacts {
+    margin: 20px 0px 20px 30px;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(163, 177, 198, 0.6), -10px -10px 20px rgba(255, 255, 255, 0.5);
+    
+  }
+
+  #contacts th,
+  #contacts td {
+    padding: 15px;
+    text-align: left;
+    color: #303030;
+    font-size: 18px;
+  }
+  
+  #contacts th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    /* border-bottom: 1px solid #ddd; */
+  }
+  
+  #contacts td {
+    border-bottom: 1px solid #ddd;
+  }
+  #contacts .result{
+    height: 10px;;
+  }
+  /* Edit Contact */
+  #editContact {
+    /* flex-basis: 25%; */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    border: 1px solid #21707f;
+    box-shadow: 10px 10px 20px rgba(163, 177, 198, 0.6), -10px -10px 20px rgba(255, 255, 255, 0.5);
+  }
+  #editContact div:nth-child(even){
+    margin-top: 3px;
+  }
+  #editContact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #303030;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #editContact label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #303030;
+    padding: 5px;
+  }
+  #currentAction{
+    padding: 10px;
+  }
+  #editContact input[type="text"],
+  #editContact input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e6e6e6;
+    box-shadow: inset 5px 5px 10px #c3c3c3, inset -5px -5px 10px #ffffff;
+    color: #303030;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #btnSave {
+    background-color: #30CFD0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  #btnSave:hover {
+    background-color: #21707f;
+  }
